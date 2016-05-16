@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <link href="jquery.mobile-1.4.5.min.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#pp" data-rel="popup" class="ui-btn">弹出窗口</a>
+    <div data-role="popup" id="pp">
+        <p>这是一个弹出窗口</p>
+    </div>
+
+    <a href="#pop" data-rel="popup" data-position-to="window" data-transition="fade">
+        <img src="girl.jpg" class="pupphoto" style="width: 20%">
+    </a>
+
+    <div data-role="popup" id="pop">
+        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">close</a>
+        <img src="girl.jpg" class="popphoto" style="max-height: 700px">
+    </div>
+</body>
+</html>

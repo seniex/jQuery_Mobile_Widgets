@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <script src="jquery-2.2.2.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <link href="jquery.mobile-1.4.5.min.css" rel="stylesheet">
+</head>
+<body>
+    <ul data-role="listview">
+        <li><a href="#">a</a></li>
+        <li><a href="#">a</a></li>
+        <li><a href="#">a</a></li>
+        <li><a href="#">a</a></li>
+    </ul>
+
+    <ol data-role="listview">
+        <li>a</li>
+        <li>a</li>
+        <li>a</li>
+        <li>a</li>
+    </ol>
+
+    <ul data-role="listview" data-filter="true" data-inset="true">
+        <li><a href="#">a</a></li>
+        <li><a href="#">b</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">d</a></li>
+    </ul>
+
+<br/><br/>
+
+    <form class="ui-filterable">
+        <input type="search" id="auto">
+    </form>
+    <ul data-role="listview" data-filter="true" data-inset="ture" data-filter-reveal="ture" data-input="#auto">
+        <li><a href="#">a</a></li>
+        <li><a href="#">a</a></li>
+        <li><a href="#">b</a></li>
+        <li><a href="#">b</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">d</a></li>
+        <li><a href="#">d</a></li>
+    </ul>
+<br/><br/>
+
+    <ul data-role="listview" data-autodividers="ture" data-filter="true" data-inset="ture">
+        <li><a href="#">a</a></li>
+        <li><a href="#">a</a></li>
+        <li><a href="#">b</a></li>
+        <li><a href="#">b</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">c</a></li>
+        <li><a href="#">d</a></li>
+        <li><a href="#">d</a></li>
+    </ul>
+</body>
+</html>
